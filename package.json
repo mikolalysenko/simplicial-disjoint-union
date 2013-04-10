@@ -1,0 +1,39 @@
+{
+  "name": "simplicial-disjoint-union",
+  "version": "0.0.0",
+  "description": "Concatenates two simplicial complexes",
+  "main": "union.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "simplicial-complex": "~0.3.3"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/simplicial-disjoint-union.git"
+  },
+  "keywords": [
+    "concatenate",
+    "mesh",
+    "simplicial",
+    "complex",
+    "triangle",
+    "surface",
+    "union",
+    "disjoint",
+    "join",
+    "inner",
+    "coproduct"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "b2222ba3dd85810d3dba7a5dfa73e03a26a49284"
+}
