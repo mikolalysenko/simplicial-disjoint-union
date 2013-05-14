@@ -35,3 +35,6 @@ Joins two simplicial complexes together.
 * `a_verts` an optional parameter giving the number of vertices in `a` if not specified, is computed dynamically.
 
 **Returns** The cells in `a` concatenated to the cells in `b`, with the vertices in `b` relabeled by those in a's length.
+
+# Credits
+(c) 2013 Mikola Lysenko. MIT License
